@@ -35,7 +35,10 @@ input::-webkit-input-placeholder{
     color: red;
 }
 
-textarea::placeholder {
+textarea:-moz-placeholder {
      color: red;
 }
 
+textarea::-webkit-input-placeholder {
+    color:red;
+}
